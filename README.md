@@ -14,7 +14,7 @@ A simple CRUD web application using Zend Framework 3 including DataTables, Boots
 
 ## Screenshots
 
-Check out images inside `/data/screenshots` directory.
+Check out images inside `/data/screenshots` directory or <a href="https://github.com/unclexo/zf3-datatables-crud/tree/master/data/screenshots">click here</a>.
 
 ## Installation
 
