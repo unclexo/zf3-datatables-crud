@@ -64,4 +64,4 @@ Database table is shipped with this repo in the `data` directory. Otherwise, you
 
 ## Contributing
 
-If you found a mistake or a bug, please report it using the <a href="https://github.com/unclexo/zf3-datatables-crud/issues">Issues</a> page. Your feedback is highly appreciated.
+If you found a mistake or a bug, please report it using the <a href="https://github.com/unclexo/zf3-datatables-crud/blob/master/data/zf3-datatables-crud.sql">Issues</a> page. Your feedback is highly appreciated.
