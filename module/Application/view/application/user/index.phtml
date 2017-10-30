@@ -1,0 +1,78 @@
+ <div class="col-md-12">
+    <div class="page-header clearfix">
+        <h2 class="pull-left">User Details</h2>
+        <button class="btn btn-success pull-right" id="add-this-user" data-toggle="modal" data-target="#user-action-modal">Add New User</button>
+    </div>
+	<div class="table-responsive">
+		<table id="user-table" class="table table-striped table-bordered table-hover" cellspacing="0" width="100%">
+	 		<thead>
+	 			<th>ID</th>
+	 			<th>First Name</th>
+	 			<th>Last Name</th>
+	 			<th>Email</th>
+	 			<th>Edit</th>
+	 			<th>Delete</th>
+	 		</thead>
+		</table>
+	</div>    
+</div>
+
+<!-- Modal for adding and updating user -->
+<div class="modal fade" id="user-action-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+    	<form class="user-action-form" id="user-action-form" method="POST" enctype="multipart/form-data">
+	        <div class="modal-content">
+	            <div class="modal-header">
+	                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	                <h4 class="modal-title" id="modal-title">Add New User</h4>
+	            </div>
+	            
+	            <div class="modal-body">
+	 				<div id="status-message"></div>
+	 				
+	                <div class="form-group">
+	                    <label for="first_name">First Name</label>
+	                    <input type="text" id="firstname" placeholder="First Name" class="form-control">
+	                </div>
+	 
+	                <div class="form-group">
+	                    <label for="last_name">Last Name</label>
+	                    <input type="text" id="lastname" placeholder="Last Name" class="form-control">
+	                </div>
+	 
+	                <div class="form-group">
+	                    <label for="email">Email</label>
+	                    <input type="text" id="email" placeholder="Email" class="form-control">
+	                </div>
+
+	                <div class="form-group">
+	                    <label for="password">Password</label>
+	                    <input type="password" id="password" placeholder="Password" class="form-control">
+	                </div>                
+	 
+	            </div>
+
+	            <div class="modal-footer">
+	                <input type="submit" class="btn btn-primary" id="user-submit" value="Add User">
+	                <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+	            </div>
+
+	        </div>
+        </form>
+    </div>
+</div>
+
+<!-- Modal for deleting user -->
+<div class="modal fade" id="user-delete-modal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+	<div class="modal-dialog modal-sm" role="document">
+		<div class="modal-content">
+			<div class="modal-body">
+				<h4>You are deleting user ID: #<span id="user-number-delete"></span></h4>
+			</div>
+	        <div class="modal-footer">
+	            <button type="button" class="btn btn-primary" id="delete-this-user">Delete</button>
+	            <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+	        </div>		
+		</div>
+	</div>
+</div>
