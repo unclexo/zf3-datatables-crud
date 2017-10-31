@@ -22,7 +22,7 @@ Just clone the repository and run `composer` as follows:
 
 ```bash
 $ cd path/to/project/dir
-$ git clone git://github.com/unclexo/zf3-datatables-crud.git
+$ git clone git@github.com:unclexo/zf3-datatables-crud.git
 $ cd server
 $ php composer.phar install
 ```
