@@ -1,4 +1,4 @@
-# A ZF3 CRUD application using DataTables, jQuery and Ajax
+# A ZF3 CRUD app using DataTables, jQuery and Ajax
 
 ## Introduction
 
